@@ -1,0 +1,43 @@
+#!/bin/bash
+clear
+figlet CALL
+echo "✧══════════════════════════✧"
+echo "AUTHOR : ✧MR.KALIT09✧"
+echo "Whatsap: ✧085277804293✧"
+echo "✧NOTE KERAS :HARGAI AUTHOR✧"
+echo "✧══════════════════════════✧"
+echo
+echo "PILIH MENU YG ADA DI TOOLS"
+echo "[1] SpamSms"
+echo "[2] Bok3p"
+echo "[0] Exit Tools"
+echo "-------------"
+read -p "[ PILIH NOMOR NYA ]=>" pill
+#batas gan
+if [ $pill = "1" ]
+then
+echo "LOADING......." ;sleep 3
+git clone https://github.com/MRKALIT09/tukang-ganggu
+cd tukang-ganggu
+python2 Spam.py
+echo "menginstall telah Selesai.." ;sleep 2
+fi
+#batas gan
+if [ $pill = "2" ]
+then
+echo "LOADING......" ;sleep 3
+git clone https://github.com/MRKALIT09/colikiawan
+cd colikiawan
+sh Tobat.sh
+echo "menginstall telah selesai.."
+fi
+#batas gan
+if [ $pill "0" ]
+then
+echo "SEE YOU NEXT TIME TOD"
+echo "_++++++++++++++++++_+"
+exit
+fi
+
+
+
